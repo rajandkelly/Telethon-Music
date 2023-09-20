@@ -1,4 +1,4 @@
-import os
+START_CMD = python3 -m VenomXimport os
 
 class Config(object):
     API_ID = int(os.environ.get("API_ID", "6213538"))
